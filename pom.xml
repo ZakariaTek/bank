@@ -28,23 +28,6 @@
                 <url>http://18.118.21.103:8081/jkusi/repository/construction_maven_proxy/</url>
         </repository>
   </repositories>
-
-
-  <distributionManagement>
-          <repository>
-                  <id>nexus</id>
-                  <name>Construction Bank Releases </name>
-                 <url>http://18.118.21.103:8081/jkusi/repository/construction_release/</url>
-         </repository>
-
-          <snapshotRepository>
-                  <id>nexus</id>
-                  <name>Contruction Bank Snapshot </name>
-                  <url>http://18.118.21.103:8081/jkusi/repository/construction_snapshot/</url>
-          </snapshotRepository>
-
-  </distributionManagement> -->
-
   <build>
 	<plugins>
 		<plugin>
